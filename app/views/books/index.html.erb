@@ -1,16 +1,21 @@
-
-<h1>Books</h1>
-<%= @books.each do|book|%>
+<h1>books</h1>
+<% @books.each do |book|%>
 
 <table>
 <thead>
 <tr>
  <th>Title</th>
- <span><%=@book.title %></span>
+ <span>
+  <%=link_to book.title, book_path(book.id) %></span>
+
+
  <th>Body</th>
+ <span><%= book.body %></span>
+
  <th colspan="3"></th>
 </tr>
 </thead>
+
 <tbody>
     <tr>
      <tb>リーダブルコード</tb>
@@ -62,5 +67,6 @@
      <tb>Destroy</tb>
     </tr>
 
-</tbody>
-</table>
+  </tbody>
+ </table>
+ <% end %>
