@@ -46,11 +46,16 @@ tb {
   padding-right:5px;
 }
 
-div.field,div.action {margin-bottom:10px;}
+div.text-scsees {margin-bottom:10px;
+                color:green;
+}
+div.text-danger {margin-bottom:10px;
+               color:red;
+}
 
-#notice {color:green;}
 
-.field_with_errors {
+
+.text-succes_with_errors {
   padding:2px;
   background-color:red;
   display:table;
@@ -83,3 +88,4 @@ div.field,div.action {margin-bottom:10px;}
 lable{
   display:block;
 }
+
