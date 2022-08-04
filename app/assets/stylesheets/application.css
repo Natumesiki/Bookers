@@ -13,6 +13,33 @@
  *= require_tree .
  *= require_self
  */
+ body {
+    background-color: #fff;
+    color: #333;
+    font-family: verdana, arial, helvetica, sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+    margin: 33px;
+}
+body {
+    display: block;
+    margin: 8px;
+}
+table {
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    border-spacing: 2px;
+    -webkit-border-horizontal-spacing: 2px;
+    -webkit-border-vertical-spacing: 2px;
+    border-color: grey;
+    border-top-color: grey;
+    border-right-color: grey;
+    border-bottom-color: grey;
+    border-left-color: grey;
+}
+
 tbody {
   background-color: #fff; color:#333;
   font-family:verdana, arial, helvetica,sans-serif;
@@ -38,12 +65,23 @@ a :hover {
   background-color:#000;
 }
 
-th {padding-bottom:5px;}
+th {padding-bottom:5px;
+  　display: table-cell;
+    vertical-align: inherit;
+    font-weight: bold;
+    text-align: -internal-center;
+}
 
-tb {
-  padding-bottom:7px;
-  padding-left:5px;
-  padding-right:5px;
+td {
+    padding-bottom: 7px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
 }
 
 .text-scsees {margin-bottom:10px;
