@@ -13,7 +13,7 @@
  *= require_tree .
  *= require_self
  */
-body {
+tbody {
   background-color: #fff; color:#333;
   font-family:verdana, arial, helvetica,sans-serif;
   font-size:13px;
@@ -21,7 +21,7 @@ body {
   margin:33px;
 }
 
-p,ol,ul,tb {
+p,ul,tb {
   font-family:verdana, arial,helvetica,sans-serif;
   font-size:13px;
   line-height:18px;
@@ -46,10 +46,10 @@ tb {
   padding-right:5px;
 }
 
-div.text-scsees {margin-bottom:10px;
+.text-scsees {margin-bottom:10px;
                 color:green;
 }
-div.text-danger {margin-bottom:10px;
+.text-danger {margin-bottom:10px;
                color:red;
 }
 
