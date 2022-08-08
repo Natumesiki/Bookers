@@ -13,7 +13,7 @@
  *= require_tree .
  *= require_self
  */
- h1{
+ h1 {
    display: block;
     font-size: 2em;
     margin-block-start: 0.67em;
@@ -91,7 +91,7 @@ p {
     margin-inline-end: 0px;
 }
 
-a{color:#000;}
+a {color:#000;}
 
 a :visited{color:#666;}
 
