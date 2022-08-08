@@ -13,6 +13,20 @@
  *= require_tree .
  *= require_self
  */
+ h1{
+   display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+ }
+
+ span {
+    font-weight: bold;
+}
+
  body {
     background-color: #fff;
     color: #333;
@@ -40,12 +54,21 @@ table {
     border-left-color: grey;
 }
 
+thead {
+    display: table-header-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
 tbody {
-  background-color: #fff; color:#333;
-  font-family:verdana, arial, helvetica,sans-serif;
-  font-size:13px;
-  line-height:18px;
-  margin:33px;
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+    background-color: #fff; color:#333;
+    font-family:verdana, arial, helvetica,sans-serif;
+    font-size:13px;
+    line-height:18px;
+    margin:33px;
 }
 
 p,ul,tb {
@@ -55,6 +78,13 @@ p,ul,tb {
   margin:33px;
 }
 
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
 
 a{color:#000;}
 
@@ -65,7 +95,8 @@ a :hover {
   background-color:#000;
 }
 
-th {padding-bottom:5px;
+th {
+    padding-bottom:5px;
   　display: table-cell;
     vertical-align: inherit;
     font-weight: bold;
@@ -123,7 +154,4 @@ tr {
   list-style:square;
 }
 
-lable{
-  display:block;
-}
 
